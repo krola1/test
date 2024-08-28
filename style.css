@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#bakteppe {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+}
+#ramme {
+  background-color: brown;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  border: 1px solid white;
+  width: 50%;
+  height: 80%;
+  overflow: hidden;
+}
+#feltet {
+  top: 5%;
+  position: absolute;
+  left: 20%;
+  width: 50%;
+}
+#plassering_knapper {
+  position: absolute;
+  top: 5%;
+  width: 50%;
+  left: 75%;
+}
+#parent {
+  position: absolute;
+  color: aliceblue;
+  font-size: 25px;
+  width: 50%;
+  left: 20%;
+  top: 10%;
+}
